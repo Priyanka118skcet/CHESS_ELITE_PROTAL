@@ -1,1 +1,1 @@
-# CHESS_ELITE_PROTAL
+Hello world program had been implemented
