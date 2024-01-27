@@ -1,0 +1,65 @@
+/* EnrollCourse.css */
+
+.super-registration-container {
+    max-width: 450px; /* Reduced the max-width */
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .super-form-group {
+    margin-bottom: 15px; /* Slightly reduced margin */
+  }
+  
+  .super-form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .super-form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .super-form-group input::placeholder {
+    color: #777;
+  }
+  
+  .super-form-group input:focus {
+    outline: none;
+    border-color: #2980b9;
+  }
+  
+  .super-btn-enroll {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .super-btn-enroll:hover {
+    background-color: #2980b9;
+  }
+
+  .success-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #27ae60; /* Green color for success */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
