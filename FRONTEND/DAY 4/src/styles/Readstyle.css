@@ -1,0 +1,87 @@
+/* Readstyle.css */
+
+.my-custom-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.my-search-input {
+  width: 300px;
+}
+
+.my-create-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.my-create-btn:hover {
+  background-color: #218838;
+}
+
+.my-edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.my-edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.my-delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.my-delete-btn:hover {
+  background-color: #c82333;
+}
+
+.form-switch {
+  margin-bottom: 20px;
+}
+
+.my-custom-table thead th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.my-custom-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.my-custom-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.my-custom-table th, .my-custom-table td {
+  text-align: center;
+}
+
+.my-search-input {
+  width: 300px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.my-create-btn {
+  margin-left: 10px;
+}
+
+.my-custom-container {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add any additional styles as needed */
