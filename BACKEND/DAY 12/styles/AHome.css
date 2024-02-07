@@ -1,0 +1,21 @@
+.AHome {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../pictures/c31-transformed.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.8; */
+    position: relative;
+    z-index: -1;
+    width: 1535px;
+    height: 750px; /* Adjusted height to accommodate variable content */
+    margin-left: 0;
+}
+.hi
+{
+    height: 50px;
+    width: 50px;
+    color: black;
+    background-color: black;
+}
+

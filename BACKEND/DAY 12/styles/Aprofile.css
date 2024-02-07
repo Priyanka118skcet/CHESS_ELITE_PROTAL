@@ -1,0 +1,76 @@
+/* Uprofile.css */
+
+.uprofile-container {
+    background-color: blue; /* White background color */
+    background-image: url('../pictures/c5.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .uprofile-bucket {
+    width: 100%;
+    margin-left: -700px;
+    margin-top: 50px;
+    max-width: 500px;
+     background: linear-gradient(to bottom, #246abf, #f0f0f0);
+     padding: 50px;
+     border-radius: 18px;
+     background-color: transparent;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+  
+  .uprofile-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .uprofile-title {
+    margin: 0;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .edit-btn-uprofile,
+  .save-btn-uprofile {
+    color: #fff;
+    background-color: #2196f3;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .uprofile-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .uprofile-category {
+    width: 40%;
+    font-weight: bold;
+    padding-right:10px;
+    font-size: 20px;
+   
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .uprofile-value {
+    width: 60%;
+    margin-bottom: 8px;
+    font-family: fantasy;
+    padding-left: 70px;
+    font-size: 20px;
+  }
+  
+  .uprofile-input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+  }
+  

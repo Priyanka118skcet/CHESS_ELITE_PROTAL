@@ -1,0 +1,73 @@
+/* EReadStyle.css */
+
+.show-pic{
+  background-image: url("../pictures/c52.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+ 
+}
+
+
+.attractive-read-container {
+    max-width: 900px;
+    margin: 0 auto;
+    
+  }
+  
+  .attractive-search-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .attractive-grid-container {
+    display: grid;
+    gap: 80px;
+  }
+  
+ .attractive-grid-item {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ece5ef;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .attractive-grid-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .attractive-grid-item p {
+    margin: 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .enroll-btn {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #bc8cb7;
+  }
+  
