@@ -1,0 +1,79 @@
+.uprofile-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: blue; /* Fallback color */
+  background-image: url('../resources/imag3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.uprofile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay to darken background */
+}
+
+.uprofile-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure content takes at least the full height of the viewport */
+  padding: 20px; /* Add padding to the content */
+}
+
+.uprofile-bucket {
+  width: 100%;
+  max-width: 400px; /* Adjust max-width to make the form more compact */
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: padding 0.3s ease; /* Add transition for smooth animation */
+}
+
+.uprofile-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uprofile-title {
+  margin: 0;
+}
+
+.edit-btn-uprofile,
+.save-btn-uprofile {
+  color: #fff;
+  background-color: #2196f3;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.uprofile-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px; /* Reduce margin bottom to make the rows closer */
+}
+
+.uprofile-category {
+  width: 40%;
+  font-weight: bold;
+}
+
+.uprofile-value {
+  width: 60%;
+  margin-bottom: 8px;
+}
+
+.uprofile-input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
