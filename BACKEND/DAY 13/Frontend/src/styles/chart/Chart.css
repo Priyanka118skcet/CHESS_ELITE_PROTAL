@@ -1,0 +1,136 @@
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  background-color:rgb(201, 237, 238);
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Increased minimum width to 350px */
+  grid-gap: 30px; /* Increased grid gap */
+  margin-right: 514px;
+  height: 700px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.grid-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 55px;
+  width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-card:hover {
+  transform: translateY(-5px);
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.5s ease-in-out; /* Add transition for smooth opacity change */
+}
+
+.image-grid-container {
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgb(93, 112, 167);
+  flex: 1;
+  margin-top: 40px;
+  margin-left: 100px; /* Move the image grid to the right */
+  max-height: 700px; /* Set a maximum height for the image grid container */
+  overflow-y: auto; /* Add vertical scroll if the content overflows */
+  max-width: 650px; /* Set a maximum width for the image grid container */
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100%; /* Ensure the image grid doesn't exceed the container height */
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+}
+
+.image-item {
+  flex: 0 0 calc(50% - 10px); /* Adjust width of image item for smaller screens */
+  margin-right: 10px;
+  margin-bottom: 10px; /* Adjust margin for smaller screens */
+  max-width: 110px; 
+  max-height: 250px;/* Set a maximum width for the image items */
+  overflow: hidden; /* Hide overflow to prevent images from stretching */
+}
+
+.image-item img {
+  width: 100%; /* Ensure images fill the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.chart {
+  flex: 1;
+  margin-bottom: -45px;
+}
+
+.chart-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bar-chart {
+  margin-top: -650px;
+  margin-left: 1005px;
+}
+
+.pie-chart {
+  margin-left: 1050px;
+  margin-top: -390px; /* Adjusted the margin-top value */
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-card {
+    margin-right: 0; /* Remove negative margin for smaller screens */
+  }
+  
+  .chart-container {
+    margin-right: 0;
+     /* Remove margin for smaller screens */
+  }
+  
+  .image-item {
+    flex-basis: calc(50% - 10px); /* Adjust width of image item for smaller screens */
+    margin-right: 10px;
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+  }
+}
